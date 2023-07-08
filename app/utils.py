@@ -1,5 +1,8 @@
-import json, os
+import json
+import os
+
 from app import app
+
 
 def read_json(path):
     with open(path, "r") as f:

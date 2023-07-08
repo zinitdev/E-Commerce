@@ -1,6 +1,7 @@
-from app import app
 from flask import render_template
-from app import utils
+
+from app import app, utils
+
 
 @app.context_processor
 def utility_processor():
