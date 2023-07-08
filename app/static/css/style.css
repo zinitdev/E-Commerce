@@ -39,4 +39,15 @@ body {
 
 h1.subject {
     text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table.products {
+  border-collapse: collapse;
+  width: 100%;  
 }

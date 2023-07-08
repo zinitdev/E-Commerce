@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <h1 class="subject">Welcome to E-commerce website !!!</h1>
+    <div class="container">
+        <h1 class="subject">Welcome to E-commerce website !!!</h1>
+        <ul>
+            <li><a href="{{ url_for('products') }}">All Products</a></li>
+            {% for c in categories %}
+                <li><a href="">{{ c.name }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 </body>
 </html>
