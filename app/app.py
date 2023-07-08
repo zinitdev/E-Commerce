@@ -1,4 +1,4 @@
-from flask import render_template
+from flask import render_template, request
 
 from app import app, utils
 
@@ -7,16 +7,21 @@ from app import app, utils
 def utility_processor():
     return dict(
             format_price = utils.format_price,
+            categories = utils.load_categories(),
         )
 
 @app.route('/')
 def home():
-    categories = utils.load_categories()
+    cate_id = request.args.get('cate_id')
     
-    return render_template('index.html', categories=categories)
+    products = utils.load_products(cate_id=cate_id)
+    return render_template('pages/index.html',
+                           title="Home", products=products)
 
 @app.route('/products')
 def products():
     products = utils.load_products()
     
-    return render_template('products.html', products=products)
+    return render_template('pages/products.html',
+                           title="Collections",
+                           products=products)

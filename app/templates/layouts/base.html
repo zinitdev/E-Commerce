@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include 'includes/head.html' %}
+</head>
+
+<body>
+    <div class="container">
+        {% include 'layouts/header.html' %}
+
+        {% block content %}
+    
+        {% endblock %}
+
+        {% include 'layouts/footer.html' %}
+    </div>
+
+
+    {% include 'includes/scripts.html' %}
+</body>
+
+</html>

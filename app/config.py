@@ -10,3 +10,5 @@ class Config(object):
 
     SQLALCHEMY_DATABASE_URI = f'mysql+pymysql://root:{HOST_PASSWORD}@{HOST_NAME}/{DB_NAME}?charset=utf8mb4'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
+
+    BOOTSTRAP_BOOTSWATCH_THEME = 'lux'

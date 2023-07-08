@@ -86,3 +86,7 @@ set FLASK_APP=app.py
 ## Flask Plugins
 
 -   [Flask](https://pypi.org/project/Flask/) - Flask framework 🌶
+-   [python-dotenv](https://saurabh-kumar.com/python-dotenv/) - Configure environment variables ⚙️
+-   [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/) - Adds SQLAlchemy support to Flask 🐬
+-   [PyMySQL](https://pymysql.readthedocs.io/en/latest/) - Support for MySQL 🐬
+-   [Bootstrap-Flask](https://bootstrap-flask.readthedocs.io/) - Support for Bootstrap 4 & 5 🫠

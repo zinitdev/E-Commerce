@@ -7,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font: inherit;
 }
 
 img,
@@ -33,21 +33,16 @@ button {
 }
 
 body {
-  background-color: lightblue;
-  color: darkblue;
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
 }
 
-h1.subject {
-    text-align: center;
-    padding: 20px 0;
+div.card > a > img {
+  transition: transform 0.5s ease;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-table.products {
-  border-collapse: collapse;
-  width: 100%;  
+div.card > a > img:hover {
+  transform: translateY(-20px);
 }
