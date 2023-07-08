@@ -1,0 +1,22 @@
+[{
+    "id": "1",
+    "name": "Samsung Galaxy S22 Ultra 5G 128GB",
+    "description": "Samsung 5G, 128GB",
+    "price": 17990000,
+    "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
+    "category_id": 1
+},{
+    "id": "2",
+    "name": "iPhone 14 Pro Max 128GB",
+    "description": "iPhone 5G, 128GB",
+    "price": 37990000,
+    "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
+    "category_id": 2
+},{
+    "id": "3",
+    "name": "realme C53",
+    "description": "Samsung 5G, 128GB",
+    "price": 26990000,
+    "image": "https://img.tgdd.vn/imgt/f_webp,fit_outside,quality_100/https://cdn.tgdd.vn/Products/Images/42/235838/Galaxy-S22-Ultra-Burgundy-600x600.jpg",
+    "category_id": 1
+}]
